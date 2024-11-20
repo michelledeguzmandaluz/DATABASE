@@ -1,0 +1,44 @@
+/*create database dbStore;*/
+
+/*create table tblStore (
+PID int primary key auto_increment,
+NumberofItem int not null,
+ItemName varchar(30) not null,
+Price int not null,
+Expiration_Date date not null
+);*/
+
+insert into tblStore (
+NumberofItem,
+ItemName,
+Price,
+Expiration_Date
+) values
+
+( '10', 'Bearbrand', '15', '2026-01-16' ),
+( '20', 'Milo', '8', '2026-01-17' ),
+( '30', 'Greatest White', '13', '2026-01-18' ),
+( '10', 'Mentos', '1', '2026-01-19' ),
+( '20', 'Fudgee Bar', '7', '2026-01-20' ),
+( '30', 'Magic Sarap', '5', '2026-01-21' ),
+( '10', 'Frutos', '1', '2026-01-22' ),
+( '20', 'Hana', '8', '2026-01-23' ),
+( '30', 'Sting', '20', '2026-01-24' ),
+( '10', 'Choco-choco', '2', '2026-01-25' ),
+( '20', 'Piattos', '15', '2026-01-26' ),
+( '30', 'Milky Knots', '12', '2026-01-27' ),
+( '10', 'Sugo', '1', '2026-01-28' ),
+( '20', 'Lumpia Shanghai', '1', '2026-01-16' ),
+( '30', 'Cheetos', '180', '2026-01-17' ),
+( '10', 'Oreo', '10', '2026-01-18' ),
+( '20', 'Doritos', '200', '2026-01-19' ),
+( '30', 'Beng-beng', '15', '2026-01-20' ),
+( '10', 'Choco Mucho', '15', '2026-01-21' ),
+( '20', 'Expo', '10', '2026-01-22' ),
+( '30', 'Nagaraya', '17', '2026-01-23' ),
+( '10', 'Nova', '17', '2026-01-24' ),
+( '20', 'Pepsi', '10', '2026-01-25' ),
+( '30', 'RC', '10', '2026-01-26' ),
+( '10', 'Cracklings', '7', '2026-01-27' );
+
+SELECT * FROM tblStore
